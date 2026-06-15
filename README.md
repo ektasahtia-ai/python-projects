@@ -1,8 +1,8 @@
-# 🧩 Sudoku Solver in Python
+# Sudoku Solver in Python
 
 A simple and efficient Sudoku Solver built using **Python** and the **Backtracking Algorithm**. This project takes an incomplete Sudoku puzzle as input and automatically finds a valid solution.
 
-## 📌 Features
+## Features
 
 - Solves standard 9×9 Sudoku puzzles
 - Uses the Backtracking algorithm
@@ -10,11 +10,11 @@ A simple and efficient Sudoku Solver built using **Python** and the **Backtracki
 - Beginner-friendly Python project
 - Console-based interface
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - Python 3
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 Sudoku-Solver/
@@ -24,7 +24,7 @@ Sudoku-Solver/
 └── requirements.txt
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -113,5 +113,5 @@ Contributions are welcome.
 This project is licensed under the MIT License.
 
 ## 👨‍💻 Author
-
+Ekta Sahtia
 Developed as a beginner-friendly Python project for learning Backtracking and Sudoku solving techniques.
