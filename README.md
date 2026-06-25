@@ -1,36 +1,93 @@
-# Sudoku Solver in Python
+# 🐍 Python Projects
 
-A simple and efficient Sudoku Solver built using **Python** and the **Backtracking Algorithm**. This project takes an incomplete Sudoku puzzle as input and automatically finds a valid solution.
+A collection of beginner-to-intermediate Python projects built to strengthen problem-solving, algorithmic thinking, and database management skills.
 
-## Features
+## 📂 Projects Included
 
-- Solves standard 9×9 Sudoku puzzles
-- Uses the Backtracking algorithm
-- Easy-to-understand and well-structured code
-- Beginner-friendly Python project
-- Console-based interface
+### 1. 🎯 Sudoku Solver
 
-## Technologies Used
+A Python-based Sudoku Solver that uses the Backtracking Algorithm to solve standard 9×9 Sudoku puzzles efficiently.
 
-- Python 3
+#### Features
 
-## Project Structure
+* Solves standard 9×9 Sudoku puzzles
+* Uses Backtracking Algorithm
+* Clean and beginner-friendly code
+* Console-based interface
+* Demonstrates recursion and problem-solving skills
 
-```text
-Sudoku-Solver/
+#### Technologies Used
+
+* Python 3
+
+#### Learning Outcomes
+
+* Recursion
+* Backtracking
+* 2D Arrays/Lists
+* Algorithm Design
+* Problem Solving
+
+---
+
+### 2. 💰 Expense Tracker
+
+A command-line Expense Tracker built using Python and SQLite for managing personal expenses.
+
+#### Features
+
+* Add new expenses
+* View all expenses
+* Calculate total spending
+* Category-wise expense tracking
+* Data persistence using SQLite database
+
+#### Technologies Used
+
+* Python 3
+* SQLite3
+
+#### Learning Outcomes
+
+* Database Management
+* CRUD Operations
+* SQL Queries
+* Python Functions
+* Data Storage and Retrieval
+
+---
+
+## 📁 Repository Structure
+
+Python-Projects/
+
+├── Sudoku-Solver/
+
+│ ├── sudoku_solver.py
+
+│ └── README.md
+
 │
-├── sudoku_solver.py
-├── README.md
-└── requirements.txt
-```
 
-## Getting Started
+├── Expense-Tracker/
+
+│ ├── expense_tracker.py
+
+│ ├── expenses.db
+
+│ └── README.md
+
+│
+
+└── README.md
+
+---
+
+## 🚀 Getting Started
 
 ### Prerequisites
 
-Make sure Python 3 is installed on your system.
-
-Check your Python version:
+Make sure Python 3 is installed:
 
 ```bash
 python --version
@@ -39,63 +96,56 @@ python --version
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/Sudoku-Solver.git
-cd Sudoku-Solver
+git clone https://github.com/your-username/Python-Projects.git
+cd Python-Projects
 ```
 
-### Run the Program
+---
+
+## ▶️ Running Sudoku Solver
 
 ```bash
+cd Sudoku-Solver
 python sudoku_solver.py
 ```
 
-## 🧠 Algorithm Used
+---
 
-This project uses the **Backtracking Algorithm**.
+## ▶️ Running Expense Tracker
 
-### Steps:
-
-1. Find an empty cell in the Sudoku grid.
-2. Try placing numbers from 1 to 9.
-3. Check whether the number placement is valid.
-4. If valid, move to the next empty cell.
-5. If no valid number exists, backtrack and try another number.
-6. Repeat until the puzzle is solved.
-
-## 📋 Example Input
-
-```text
-5 3 0 0 7 0 0 0 0
-6 0 0 1 9 5 0 0 0
-0 9 8 0 0 0 0 6 0
-8 0 0 0 6 0 0 0 3
-4 0 0 8 0 3 0 0 1
-7 0 0 0 2 0 0 0 6
-0 6 0 0 0 0 2 8 0
-0 0 0 4 1 9 0 0 5
-0 0 0 0 8 0 0 7 9
+```bash
+cd Expense-Tracker
+python expense_tracker.py
 ```
 
-## ✅ Example Output
+---
 
-```text
-5 3 4 6 7 8 9 1 2
-6 7 2 1 9 5 3 4 8
-1 9 8 3 4 2 5 6 7
-8 5 9 7 6 1 4 2 3
-4 2 6 8 5 3 7 9 1
-7 1 3 9 2 4 8 5 6
-9 6 1 5 3 7 2 8 4
-2 8 7 4 1 9 6 3 5
-3 4 5 2 8 6 1 7 9
-```
+## 🧠 Skills Demonstrated
 
-## 🎯 Learning Outcomes
+* Python Programming
+* Object-Oriented Programming Concepts
+* Data Structures
+* Recursion & Backtracking
+* SQLite Database Management
+* Problem Solving
+* Git & GitHub
 
-- Understanding recursion
-- Understanding backtracking
-- Working with 2D lists in Python
-- Problem-solving and algorithm design
+---
+
+## 🎯 Future Projects
+
+Planned additions to this repository:
+
+* AI Resume Analyzer
+* Password Manager
+* Weather App
+* To-Do List Application
+* Quiz Game
+* Library Management System
+* File Organizer
+* Chatbot using Python
+
+---
 
 ## 🤝 Contributing
 
@@ -108,10 +158,18 @@ Contributions are welcome.
 5. Push to your branch
 6. Create a Pull Request
 
+---
+
 ## 📜 License
 
 This project is licensed under the MIT License.
 
+---
+
 ## 👨‍💻 Author
-Ekta Sahtia
-Developed as a beginner-friendly Python project for learning Backtracking and Sudoku solving techniques.
+
+### Ekta Sahtia
+
+B.Tech CSE Student | Python Enthusiast | Aspiring AI & GenAI Developer
+
+Passionate about building projects, learning Data Structures & Algorithms, Python Development, SQL, and Generative AI.
