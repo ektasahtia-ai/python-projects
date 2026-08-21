@@ -1,4 +1,4 @@
-# 🐍 Python Projects
+# 🐍 Python Project
 
 A collection of beginner-to-intermediate Python projects built to strengthen problem-solving, algorithmic thinking, and database management skills.
 
